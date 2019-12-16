@@ -113,22 +113,21 @@ p {
 
 /*Thi is project-cards*/
 .project-card {
-    display: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 68px;
 }
 
 .img-link:hover {
     box-shadow: 1px 1px 60px 10px #EBEBEB;
     transform: scale(1.01);
-    
 }
 
 .img-link {
     position: relative;
     display: block;
-    width: 50%;
+    width: 45%;
     height: 17vw;
     background-color: lightgrey;
     border-radius: 8px;
@@ -261,7 +260,7 @@ p {
 }
 
 .card-cap {
-    width: 50%;
+    width: 45%;
     margin: 0 5%;
 }
 
@@ -1666,7 +1665,7 @@ footer ul li a {
 
 
 /*Pad view*/
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
     #title {
         margin-right: 1em;
     }
@@ -1703,4 +1702,25 @@ footer ul li a {
 }
 .annotation-central {
     text-align: center;
+}
+
+/*Mobile*/
+@media screen and (min-width:0px) and (max-width:480px) {
+    .img-link {
+        width: 100%;
+        height: 42vw;
+    }
+    .card-img {
+    width: 100%;
+    height: 42vw;
+}
+    .card-cap {
+    display: none;
+}
+    #old-work {
+        font-size: 2em;
+    }
+    .project-card {
+        margin-bottom: 16px;
+    }
 }
