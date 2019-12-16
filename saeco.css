@@ -1,0 +1,88 @@
+
+#product-1 {
+    background-image: url(img/work/saeco/new-design.png);
+    height: 28vw;
+    background-size: cover;
+}
+
+
+
+.saeco-link {
+    font-weight: 600;
+    color: #634AE8;
+}
+
+#bold-font {
+    font-weight: 800;
+}
+
+#saeco-design-1 {
+    background-image:url(img/work/saeco/cover.png);
+    height: 44vw;
+    background-size: cover;
+}
+
+#product-0 {
+    background-image: url(img/work/saeco/old-design.png);
+    height: 32vw;
+    background-size: cover;
+}
+
+#saeco-process-1 {
+    background-image: url(img/work/saeco/process.png);
+    height: 20vw;
+    background-color: white;
+}
+
+#saeco-finding-1 {
+    background-image: url(img/work/saeco/tep.gif);
+    background-color: white;
+}
+#saeco-finding-2 {
+    background-image: url(img/work/saeco/pf.gif);
+    background-color: white;
+}
+#saeco-finding-3 {
+    background-image: url(img/work/saeco/maintenance.gif);
+    background-color: white;
+}
+
+
+
+#saeco-leds-1 {
+    background-image: url(img/work/saeco/leds.png);
+    background-color: white;
+}
+
+#saeco-main-00 {
+    background-image: url(img/work/saeco/main-00.png);
+    background-size: cover;
+}
+#saeco-main-0 {
+    background-image: url(img/work/saeco/main-0.png);
+    background-size: cover;
+}
+#saeco-main-1 {
+    background-image: url(img/work/saeco/main-1.png);
+    background-size: cover;
+}
+#saeco-main-2 {
+    background-image: url(img/work/saeco/main-2.png);
+    background-size: cover;
+}
+#saeco-main-3 {
+    background-image: url(img/work/saeco/main-3.png);
+    background-size: cover;
+}
+
+#saeco-ut-1 {
+    background-image: url(img/work/saeco/test-process.png);
+    height: 42vw;
+    background-size: cover;
+}
+
+#saeco-analysis-1 {
+    background-image: url(img/work/saeco/Saeco_Info_Architecture.png);
+    height: 34vw;
+    background-color: white;
+}

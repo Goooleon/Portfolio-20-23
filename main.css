@@ -1,0 +1,1676 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+::selection {
+    background-color: #42FF9B;
+    color: #634AE8;
+}
+
+.content-left {
+    position: fixed;
+    width: 18%;
+    height: 100vh;
+    background-color: #FCFCFC;
+    border-right: 1px solid #F6F6F6;
+}
+
+.content-right {
+    position: relative;
+    width: 72%;
+    float: right;
+    padding: 5% 5% 1.7% 5%;
+}
+
+#about-right {
+    padding-top: 0; 
+}
+
+
+
+/*Thi is Nav*/
+.nav {
+    padding: 10%;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav ul li {
+    float: left;
+    
+}
+
+.nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#title {
+    font-weight: 800;
+    font-size: 1.5em;
+    padding: 0;
+    color: #5252EF;
+}
+
+#about, #work {
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 0 60%;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/*Thi is content list*/
+.content-list {
+    padding: 0 10%;
+    position: relative;
+}
+
+.content-list ul {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 10% 0;
+}
+
+.content-list ul li {
+    font-size: 2em;
+}
+
+.content-list ul li a{
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+
+.category{
+    font-size: 0.65em;
+    text-decoration: underline;
+}
+
+
+
+
+
+/*Thi is project-cards*/
+.project-card {
+    display: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 68px;
+}
+
+.img-link:hover {
+    box-shadow: 1px 1px 60px 10px #EBEBEB;
+    transform: scale(1.01);
+    
+}
+
+.img-link {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 17vw;
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+
+.card-img {
+    z-index: 1;
+    width: 100%;
+    height: 17vw;
+    border-radius: 8px;
+}
+
+.card-img:hover {
+    background: linear-gradient(to right bottom, rgba(119, 255, 203, 0.5), rgba(66, 255, 155, 0.1));
+}
+
+.card-img:hover .view-text {
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+
+.view-text {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    font-weight: 800;
+    letter-spacing: 0.6em;
+    color: #42FF9B;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    margin: 0;
+    padding-left: 0.6em;
+    opacity: 0;
+    font-size: 0.8em;
+    text-shadow: 0px 0px 16px #42FF9B;
+    border: solid 1px;
+    border-radius: 2px;
+}
+
+#light-text {
+    color: #634AE8;
+}
+
+
+
+
+
+
+
+#work-1, #work-2, #work-3, #work-4, #work-5, #work-6, #work-7, #work-8, #work-9, #work-10 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#old-work {
+    margin-top: 10vw;
+    font-size: 4em;
+}
+
+.current {
+    margin-top: 0;
+    font-size: 3em;
+/*   position: -webkit-sticky;
+    position: sticky;
+    top: 0vh;
+*/
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+    padding: 0 0 5% 0;
+    border-bottom: 2px solid #F3F3F3; 
+}
+
+.intro-cap {
+    display: block;
+    position: relative;
+    width: 20%;
+}
+
+.intro-cap-date {
+    margin-top: 2em;
+    background-color: #42FF9B;
+    color: #634AE8;
+}
+
+.intro-content {
+    display: block;
+    position: relative;
+    width: 60%;
+}
+
+#work-1 {
+    background-image: url(img/cover-img/img01.png);
+    background-position: top;
+}
+#work-2 {
+    background-image: url(img/cover-img/img02.jpg);
+}
+#work-3 {
+    background-image: url(img/cover-img/img03.jpg);
+}
+#work-4 {
+    background-image: url(img/cover-img/img04.jpeg);
+}
+#work-5 {
+    background-image: url(img/cover-img/img05.png);
+}
+#work-6 {
+    background-image: url(img/cover-img/img06.jpg);
+}
+#work-7 {
+    background-image: url(img/cover-img/img07.jpg);
+}
+#work-8 {
+    background-image: url(img/cover-img/img08.jpg);
+}
+#work-9 {
+    background-image: url(img/cover-img/img09.jpg);
+}
+#work-10 {
+    background-image: url(img/cover-img/img10.jpg);
+    background-position: top;
+}
+
+.card-title {
+    margin-top: 10%;
+}
+
+.card-cap {
+    width: 50%;
+    margin: 0 5%;
+}
+
+.card-num h1{
+    color: #D6D6D6;
+    margin: 0;
+    font-weight: 300;
+}
+
+.sub-category {
+    text-decoration: underline;
+    color: #8C8C8C;
+}
+
+
+
+
+
+/*Thi is footer*/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer ul {
+    font-size: 0.8em;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 10%;
+}
+
+footer ul li {
+    float: left;
+    margin: 0 10% 0 0;
+}
+
+footer ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: black;
+}
+
+#footer_note {
+    font-size: 0.6em;
+    text-align: center;
+    color: #868686;
+    margin: 0;
+}
+
+
+#face {
+    margin: 10% 0 2% 0; 
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: contain;
+    background-image: url(img/face.jpeg);
+}
+
+#download {
+    margin-top: 4%;
+}
+
+#cv {
+    color: #FF5A6F;
+    font-weight: 800;
+    padding: 1%;
+    border: 1px solid #FF5A6F;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+#cv:hover {
+    box-shadow: 1px 1px 16px 1px #FF5A6F;
+    background-color: #FF5A6F;
+    color: white;
+}
+
+
+
+
+
+/*This is ABOUT*/
+#portait {
+    background-image: url(img/portrait.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 30vw;
+    margin-bottom: 6%;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+#name {
+    font-weight: 800;
+}
+
+.text h1{
+    display: block;
+    width: 16%;
+    text-align: right;
+    margin-right: 8%;
+}
+
+.text p{
+    display: block;
+    width: 62%;
+    font-size: 1.8em;
+    text-align: justify;
+}
+
+#contact {
+    display: block;
+    position: relative;
+    left: 24%;
+    width: 76%;
+}
+
+
+.fa-instagram:hover, .fa-linkedin:hover, .fa-pinterest:hover {
+    color: #634AE8;
+}
+
+
+
+/*This is Work page*/
+
+
+.cover-img {
+    width: 100%;
+    height: 60vh;
+    background-color: lightgray;
+    
+}
+
+#work-page-2, #work-page-3, #work-page-4, #work-page-5,#work-page-6,#work-page-7, #work-page-8, #work-page-9,#work-page-10 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#work-page-2 {
+    background-image: url(img/cover-img/img02.jpg);
+}
+
+#work-page-4 {
+    background-image: url(img/cover-img/img04.jpeg);
+}
+#work-page-5 {
+    background-image: url(img/cover-img/img05.png);
+}
+#work-page-6 {
+    background-image: url(img/cover-img/img06.jpg);
+}
+#work-page-7 {
+    background-image: url(img/work/arco/img-5-banner.jpg);
+}
+#work-page-8 {
+    background-image: url(img/cover-img/img08.jpg);
+}
+#work-page-9 {
+    background-image: url(img/cover-img/img09.jpg);
+}
+#work-page-10 {
+    background-image: url(img/work/theStool/img-8-banner.jpg);
+}
+#work-page-5 {
+    background-image: url(img/cover-img/img05.png);
+}
+
+#work-page-3 {
+    background-image: url(img/cover-img/img03.jpg);
+    background-position: top;
+}
+
+.work-content {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 88%;
+    margin-top: 10%;
+}
+
+.content-block {
+    margin: 6vw 0;
+    display: block;
+    position: relative;
+}
+
+.content-block h2 {
+    margin-top: 6%; 
+}
+
+
+.video-responsive{
+    width: 100%;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive-small{
+    width: 80%;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.video-responsive-small iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.row-img-1 {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    width: 98%;
+    margin: 1%;
+    padding: 0;
+    height: 32vw;
+    background-color: #FAFAFA;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row-img-1-min {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    width: 12%;
+    margin-top: 4%;
+    padding: 0;
+    height: 4vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.row-img {
+    width: 48%;
+    margin: 1%;
+    padding: 0;
+    height: 16vw;
+    background-color: #FAFAFA;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+.row-img-2-text {
+    width: 48%;
+    background-color: #FAFAFA;
+    margin: 1%;
+    padding: 0;
+    padding: 2%;
+}
+
+#no-bg-box {
+    background-color: white;
+}
+
+.row-img-2 {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    width: 48%;
+    margin: 1%;
+    padding: 0;
+    height: 16vw;
+    background-color: #FAFAFA;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.row-img-3 {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    width: 31.33%;
+    margin: 1%;
+    padding: 0;
+    height: 12vw;
+    background-color: #FAFAFA;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.row-img-3-container{
+    display: inline-flex;
+    width: 100%;
+}
+
+.row-img-6-text {
+    display: block;
+    position: relative;
+    flex-direction: row;
+    width: 15%;
+    margin: 0.83%;
+    padding: 0;
+}
+.row-img-6-img {
+    display: block;
+    padding: 0;
+    height: 6vw;
+    background-color: #FAFAFA;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#progress-1， #progress {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#progress-1 {
+    background-image: url(img/work/PowerPoint_Animation/progressive_1.png);
+}
+
+#progress-2 {
+    background-image: url(img/work/PowerPoint_Animation/progressive_2.png);
+}
+
+#progress-3 {
+    background-image: url(img/work/PowerPoint_Animation/progressive_3.png);
+}
+
+#cm {
+    background-image: url(img/work/PowerPoint_Animation/cm.png);
+}
+
+#cm-1 {
+    background-image: url(img/work/PowerPoint_Animation/cm_1.gif);
+}
+
+#pane {
+    background-image: url(img/work/PowerPoint_Animation/pane.png);
+}
+
+#pane-1 {
+    background-image: url(img/work/PowerPoint_Animation/pane_2.gif);
+}
+
+
+
+.collapsible {
+    background-color: #F3F3F3;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2em;
+    font-weight: 800;
+    border-left: 4px solid black;
+}
+
+.collapsible:hover {
+    background-color: #42FF9B;
+}
+
+.active {
+  background-color: #F3F3F3;
+}
+
+#active-content {
+    color: black;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+    
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 2%;
+}
+
+
+#st-1 {
+    height: 45vw;
+    background-image: url(img/cover-img/img10.jpg);
+}
+#st-2 {
+    height: 45vw;
+    background-image: url(img/work/theStool/st_1.png);
+}
+
+.highlight-text {
+    font-weight: 800;
+    color: black;
+}
+
+#ins-1 {
+    background-image: url(img/work/miao/bg-1.JPG);
+    height: 28vw;
+    background-size: cover;
+    background-position: top;
+}
+#ins-2 {
+    background-image: url(img/work/miao/bg-2.JPG);
+}
+#ins-3 {
+    background-image: url(img/work/miao/bg-3.jpg);
+}
+#ins-4 {
+    background-image: url(img/work/miao/bg-4.jpg);
+}
+
+#tan-1 {
+    background-image: url(img/work/miao/form.png);
+    background-size: contain;
+    height: 15vw;
+}
+#tan-2 {
+    background-image: url(img/work/miao/pattern.png);
+    background-size: contain;
+    height: 15vw;
+}
+#tan-3 {
+    background-image: url(img/work/miao/color.png);
+    background-size: contain;
+    height: 15vw;
+}
+
+#show-1 {
+    background-image: url(img/work/miao/showcase-1.png);
+    height: 32vw;
+}
+#show-2 {
+    background-image: url(img/work/miao/showcase-2.png);
+    height: 32vw;
+}
+#show-3 {
+    background-image: url(img/work/miao/showcase-3.png);
+    height: 32vw;
+}
+#show-4 {
+    background-image: url(img/work/miao/showcase-4.png);
+    height: 32vw;
+}
+#show-5 {
+    background-image: url(img/work/miao/showcase-5.png);
+    height: 32vw;
+}
+#show-6 {
+    background-image: url(img/work/miao/showcase-6.png);
+    height: 32vw;
+}
+#show-7 {
+    background-image: url(img/work/miao/showcase-7.png);
+    height: 32vw;
+}
+#show-8 {
+    background-color: white;
+    height: 32vw;
+}
+
+#show-9 {
+    background-image: url(img/work/miao/showcase-8.png);
+    height: 24vw;
+}
+
+#sketch-1 {
+    background-image: url(img/work/miao/sketch-0.jpg);
+    background-size: cover;
+    height: 16vw;
+}
+#sketch-2 {
+    background-image: url(img/work/miao/sketch-1.jpg);
+}
+#sketch-3 {
+    background-image: url(img/work/miao/sketch-2.jpg);
+}
+#sketch-4 {
+    background-image: url(img/work/miao/sketch-3.jpg);
+}
+#sketch-5 {
+    background-image: url(img/work/miao/sketch-4.jpg);
+    background-size: cover;
+}
+#sketch-6 {
+    background-image: url(img/work/miao/sketch-5.jpg);
+    background-size: cover;
+}
+#sketch-7 {
+    background-image: url(img/work/miao/sketch-6.jpg);
+    background-size: cover;
+}
+#sketch-8 {
+    background-image: url(img/work/miao/sketch-7.jpg);
+    background-size: cover;
+}
+
+#craft-1 {
+    background-image: url(img/work/miao/making-1.jpg);
+    height: 16vw;
+    background-size: cover;
+}
+#craft-2 {
+    background-image: url(img/work/miao/making-2.jpg);
+}
+#craft-3 {
+    background-image: url(img/work/miao/making-3.jpg);
+}
+#craft-4 {
+    background-image: url(img/work/miao/making-6.jpg);
+}
+#craft-5 {
+    background-image: url(img/work/miao/making-4.jpg);
+    background-size: cover;
+}
+#craft-6 {
+    background-image: url(img/work/miao/making-7.gif);
+    background-size: cover;
+}
+#craft-7 {
+    background-image: url(img/work/miao/making-5.jpg);
+    background-size: cover;
+}
+#craft-8 {
+    background-image: url(img/work/miao/making-9.jpg);
+    background-size: cover;
+}
+
+#story-1 {
+    background-image: url(img/work/)
+}
+
+#arco-show-1 {
+    background-image: url(img/work/arco/assembling.jpg);
+    height: 36vw;
+    background-size: cover;
+}
+#arco-show-2 {
+    background-image: url(img/work/arco/mockup-1.jpg);
+    height: 36vw;
+    background-size: cover;
+}
+#arco-show-3 {
+    background-image: url(img/work/arco/mockup-2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+#arco-show-4 {
+    background-image: url(img/cover-img/img07.jpg);
+    height: 36vw;
+    background-size: cover;
+}
+
+#bg-1 {
+    background-image: url(img/work/arco/bg1.jpg);
+}
+#bg-2 {
+    background-image: url(img/work/arco/bg2.jpg);
+}
+#bg-3 {
+    background-image: url(img/work/arco/bg3.jpg);
+}
+#bg-4 {
+    background-image: url(img/work/arco/bg4.jpg);
+}
+#bg-5 {
+    background-image: url(img/work/arco/bg5.jpg);
+}
+#bg-6 {
+    background-color: white;
+}
+
+#bending-1 {
+    background-image: url(img/work/arco/steam.png);
+}
+#bending-2 {
+    background-image: url(img/work/arco/kerf.png);
+}
+#bending-3 {
+    background-image: url(img/work/arco/lamination.png);
+}
+
+#arco-bending-1 {
+    background-image: url(img/work/arco/steam1.jpg);
+}
+#arco-bending-2 {
+    background-image: url(img/work/arco/steam2.jpg);
+}
+#arco-bending-3 {
+    background-image: url(img/work/arco/steam3.jpg);
+}
+#arco-bending-4 {
+    background-image: url(img/work/arco/kerf-cutting1.jpg);
+}
+#arco-bending-5 {
+    background-image: url(img/work/arco/kerf-cutting2.jpg);
+}
+#arco-bending-6 {
+    background-image: url(img/work/arco/kerf-cutting3.jpg);
+}
+#arco-bending-7 {
+    background-image: url(img/work/arco/lamination1.jpg);
+}
+#arco-bending-8 {
+    background-image: url(img/work/arco/lamination2.jpg);
+}
+#arco-bending-9 {
+    background-image: url(img/work/arco/lamination3.jpg);
+}
+
+#arco-ideation-1 {
+    background-image: url(img/work/arco/sketch_Arco.jpg);
+    height: 38vw;
+    background-size: cover;
+    
+}
+#arco-ideation-2 {
+    background-image: url(img/work/arco/Rendering_Arco.jpg);
+    height: 38vw;
+    background-size: cover;
+}
+
+#arco-ideation-3 {
+    background-image: url(img/work/arco/prototype_1.jpg);
+}
+#arco-ideation-4 {
+    background-image: url(img/work/arco/prototype_2.jpg);
+}
+#arco-ideation-5 {
+    background-image: url(img/work/arco/prototype_3.jpg);
+}
+#arco-ideation-6 {
+    background-image: url(img/work/arco/Prototype_4.gif);
+    background-size: cover;
+}
+#arco-ideation-7 {
+    background-image: url(img/work/arco/prototype_5.jpg);
+    background-size: cover;
+}
+
+#projectx-1 {
+    background-image: url(img/work/ProjectX/04.jpg);
+    height: 24vw;
+}
+#projectx-2 {
+    background-image: url(img/work/ProjectX/05.jpg);
+    height: 24vw;
+}
+#projectx-3 {
+    background-image: url(img/work/ProjectX/06.jpg);
+    height: 24vw;
+}
+#projectx-4 {
+    background-image: url(img/work/ProjectX/07.jpg);
+    height: 24vw;
+}
+#projectx-5 {
+    background-image: url(img/work/ProjectX/08.jpg);
+    height: 24vw;
+}
+#projectx-6 {
+    background-image: url(img/work/ProjectX/09.jpg);
+    height: 24vw;
+}
+#projectx-7 {
+    background-image: url(img/work/ProjectX/01.gif);
+    height: 24vw;
+}
+#projectx-8 {
+    background-image: url(img/work/ProjectX/02.gif);
+    height: 24vw;
+}
+#projectx-9 {
+    background-image: url(img/work/ProjectX/03.gif);
+    height: 24vw;
+}
+
+.quote {
+    position: relative;
+    width: 88%;
+    color: #575757;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+    font-weight: 300;
+    
+}
+.quote-box {
+    padding: 2% 0;
+    border-radius: 6px;
+    background-color: #F3F3F3;
+}
+
+#ppt-1 {
+    background-image: url(img/work/PowerPoint_Animation/ppt-bg1.png);
+    height: 6vw;
+    background-size: cover;
+}
+#ppt-2 {
+    background-image: url(img/work/PowerPoint_Animation/ppt-bg2.png);
+    height: 6vw;
+    background-size: cover;
+}
+#ppt-3 {
+    background-image: url(img/work/PowerPoint_Animation/ppt-bg3.png);
+    height: 6vw;
+    background-size: cover;
+}
+#ppt-4 {
+    background-image: url(img/work/PowerPoint_Animation/persona_1.png);
+    background-size: cover;
+}
+#ppt-5 {
+    background-image: url(img/work/PowerPoint_Animation/persona_2.jpg);
+    background-size: cover;
+}
+#ppt-6 {
+    background-image: url(img/work/PowerPoint_Animation/persona_3.png);
+    background-size: cover;
+}
+
+.annotation {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #575757;
+    margin-top: 0;
+}
+
+
+
+.row-img-text {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 3%;
+}
+.row-img-text h3 {
+    margin: 0;
+}
+
+.bold-text {
+    font-weight: 800;
+}
+.ppt-persona {
+    color: #634AE8;
+    font-weight: 800;
+}
+
+#rs-story-1 {
+    background-image: url(img/work/RiceStory/Story1.jpg);
+}
+#rs-story-2 {
+    background-image: url(img/work/RiceStory/Story2.jpg);
+    border: 2px solid #634AE8;
+}
+#rs-story-3 {
+    background-image: url(img/work/RiceStory/Story3.jpg);
+}
+#rs-story-4 {
+    background-image: url(img/work/RiceStory/Story4.jpg);
+}
+#rs-story-5 {
+    background-image: url(img/work/RiceStory/Story5.jpg);
+}
+#rs-story-6 {
+    background-image: url(img/work/RiceStory/Story6.jpg);
+}
+
+#rs-story-design-1 {
+    background-image: url(img/work/RiceStory/rnd_4.png);
+    height: 12vw;
+    background-color: white;
+}
+#rs-story-design-2 {
+    background-image: url(img/work/RiceStory/rnd_6.png);
+    background-size: cover;
+}
+#rs-story-design-3 {
+    background-image: url(img/work/RiceStory/pos1.jpg);
+    height: 26vw;
+}
+#rs-story-design-4 {
+    background-image: url(img/work/RiceStory/pos2.jpg);
+    height: 26vw;
+}
+#rs-story-design-5 {
+    background-image: url(img/work/RiceStory/pos3.jpg);
+    height: 26vw;
+}
+
+#rs-story-use-1 {
+    background-image: url(img/work/RiceStory/new_1.jpg);
+}
+#rs-story-use-2 {
+    background-image: url(img/work/RiceStory/new_2.jpg);
+}
+#rs-story-use-3 {
+    background-image: url(img/work/RiceStory/new_3.jpg);
+}
+#rs-story-use-4 {
+    background-image: url(img/work/RiceStory/new_4.jpg);
+}
+#rs-story-use-5 {
+    background-image: url(img/work/RiceStory/new_5.jpg);
+}
+#rs-story-use-6 {
+    background-image: url(img/work/RiceStory/new_6.jpg);
+}
+
+#rs-story-poster {
+    background-image: url(img/work/RiceStory/poster.jpg);
+    background-size: cover;
+    height: 42vw;
+}
+
+#rs-story-ideation-1 {
+    background-image: url(img/work/RiceStory/rnd_3.png);
+    height: 32vw;
+    background-color: white;
+}
+
+#rs-story-ideation-2 {
+    background-image: url(img/work/RiceStory/sm_1.png);
+    background-color: white;
+}
+#rs-story-ideation-3 {
+    background-image: url(img/work/RiceStory/sm_2.png);
+}
+#rs-story-ideation-4 {
+    background-image: url(img/work/RiceStory/sm_3.jpg);
+    background-size: cover;
+}
+
+#rs-moodboard-1 {
+    background-image: url(img/work/RiceStory/moodboard1.png);
+}
+#rs-moodboard-2 {
+    background-image: url(img/work/RiceStory/moodboard2.png);
+}
+#rs-moodboard-3 {
+    background-image: url(img/work/RiceStory/moodboard3.png);
+}
+#rs-moodboard-4 {
+    background-image: url(img/work/RiceStory/moodboard4.png);
+}
+#rs-moodboard-5 {
+    background-image: url(img/work/RiceStory/moodboard5.png);
+}
+#rs-brand-1 {
+    background-image: url(img/work/RiceStory/b_1.png);
+    background-color: white;
+}
+#rs-brand-2  {
+    background-image: url(img/work/RiceStory/b_2.png);
+    background-color: white;
+}
+#rs-brand-3  {
+    background-image: url(img/work/RiceStory/rnd_6.png);
+    background-size: cover;
+}
+
+#bruxnomore-bg-1 {
+    background-image: url(img/work/BruxNoMore/bg-2.jpg);
+    background-size: cover;
+}
+#bruxnomore-bg-2 {
+    background-image: url(img/work/BruxNoMore/bg-1.png);
+}
+
+
+#bruxnomore-bg-4 {
+    background-image: url(img/work/BruxNoMore/bg-4.png);
+}
+#bruxnomore-bg-5 {
+    background-image: url(img/work/BruxNoMore/bg-5.png);
+}
+#bruxnomore-bg-6 {
+    background-image: url(img/work/BruxNoMore/bg-6.png);
+    background-color: white;
+}
+#bruxnomore-bg-7 {
+    background-image: url(img/work/BruxNoMore/bg-7.png);
+    background-color: white;
+}
+
+
+
+.img-title {
+    margin: 4% 0 1% 0;
+}
+
+.bruxnomore-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bruxnomore-c-1 {
+    width: 30%;
+    margin: 2%;
+}
+.bruxnomore-c-2 {
+    width: 48%;
+    margin: 1%;
+}
+.bruxnomore-c-3 {
+    width: 32%;
+    margin: 1%;
+}
+.bruxnomore-c-3 p {
+    border-radius: 6px;
+    background-color: #FCFCFC;
+    padding: 5%;
+}
+.bruxnomore-c-1 h3 {
+    border-radius: 6px;
+    padding: 5%;
+    background-color: #42FF9B;
+}
+.bruxnomore-c-2 h3 {
+    border-radius: 6px;
+    padding: 5%;
+    background-color: #42FF9B;
+}
+
+#bruxnomore-r-1 {
+    background-image: url(img/work/BruxNoMore/rnd-5.png);
+    height: 12vw;
+    background-color: white;
+}
+#bruxnomore-r-2 {
+    background-image: url(img/work/BruxNoMore/rnd-6.png);
+    height: 24vw;
+    background-color: white;
+}
+#bruxnomore-r-3 {
+    background-image: url(img/work/BruxNoMore/rnd-7.png);
+    height: 24vw;
+    background-color: white;
+}
+
+#bruxnomore-r-4 {
+    background-image: url(img/work/BruxNoMore/rnd-8.png);
+    background-color: white;
+}
+#bruxnomore-r-5 {
+    background-image: url(img/work/BruxNoMore/rnd-9.png);
+    background-color: white;
+}
+#bruxnomore-r-6 {
+    background-image: url(img/work/BruxNoMore/rnd-10.png);
+    background-color: white;
+}
+
+#bruxnomore-r-7 {
+    background-image: url(img/work/BruxNoMore/rnd-1.jpg);
+    height: 24vw;
+    background-size: cover;
+}
+
+#bruxnomore-r-8 {
+    background-image: url(img/work/BruxNoMore/rnd-2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+#bruxnomore-r-9 {
+    background-image: url(img/work/BruxNoMore/rnd-3.jpg);
+    background-size: cover;
+}
+#bruxnomore-r-10 {
+    background-image: url(img/work/BruxNoMore/rnd-4.png);
+    background-size: cover;
+}
+#bruxnomore-r-11 {
+    background-image: url(img/work/BruxNoMore/rnd-11.jpg);
+    background-size: cover;
+}
+
+
+
+.hightlight-info {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 600;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#margin-filler {
+    margin-bottom: 10%;
+}
+
+.light-title {
+    font-weight: 600;
+}
+
+#bruxnomore-mockup-1 {
+    background-image: url(img/work/BruxNoMore/mp-1.jpg);
+}
+#bruxnomore-mockup-2 {
+    background-image: url(img/work/BruxNoMore/mp-2.jpg);
+}
+#bruxnomore-mockup-3 {
+    background-image: url(img/work/BruxNoMore/mp-3.jpg);
+}
+#bruxnomore-mockup-4 {
+    background-image: url(img/work/BruxNoMore/mp-4.jpg);
+}
+#bruxnomore-mockup-5 {
+    background-image: url(img/work/BruxNoMore/mp-5.jpg);
+}
+#bruxnomore-mockup-6 {
+    background-image: url(img/work/BruxNoMore/mp-6.jpg);
+}
+#bruxnomore-mockup-7 {
+    background-image: url(img/work/BruxNoMore/mp-7.jpg);
+}
+#bruxnomore-mockup-8 {
+    background-image: url(img/work/BruxNoMore/mp-8.jpg);
+}
+#bruxnomore-mockup-9 {
+    background-image: url(img/work/BruxNoMore/mp-9.jpg);
+}
+#bruxnomore-mockup-10 {
+    background-image: url(img/work/BruxNoMore/mp-10.jpg);
+}
+#bruxnomore-mockup-11 {
+    background-image: url(img/work/BruxNoMore/mp-11.jpg);
+}
+#bruxnomore-mockup-12 {
+    background-image: url(img/work/BruxNoMore/mp-13.jpg);
+}
+#bruxnomore-mockup-13 {
+    background-image: url(img/work/BruxNoMore/mp-14.jpg);
+}
+#bruxnomore-mockup-14 {
+    background-image: url(img/work/BruxNoMore/mp-15.jpg);
+}
+
+
+#bruxnomore-1 {
+    background-image: url(img/work/BruxNoMore/rnd-12-1.png);
+}
+#bruxnomore-2 {
+    background-image: url(img/work/BruxNoMore/app-3.jpg);
+    height: 26vw;
+    background-size: cover;
+}
+#bruxnomore-3 {
+    background-image: url(img/work/BruxNoMore/ic-2.png);
+    height: 40vw;
+    background-size: cover;
+}
+#bruxnomore-3-1 {
+    background-image: url(img/work/BruxNoMore/mp-12.png);
+    height: 40vw;
+    background-size: cover;
+}
+#bruxnomore-4 {
+    background-image: url(img/work/BruxNoMore/app-1.png);
+    height: 40vw;
+    background-size: cover;
+}
+
+#bruxnomore-sketch-1 {
+    background-image: url(img/work/BruxNoMore/ic-1.jpg);
+    height: 42vw;
+    background-size: cover;
+}
+
+#bruxnomore-5 {
+    background-image: url(img/work/BruxNoMore/app-4.png);
+    background-color: white;
+}
+#bruxnomore-6 {
+    background-image: url(img/work/BruxNoMore/app-5.png);
+    background-color: white;
+}
+#bruxnomore-7 {
+    background-image: url(img/work/BruxNoMore/app-6.png);
+    background-color: white;
+}
+#bruxnomore-8 {
+    background-image: url(img/work/BruxNoMore/app-7.png);
+    background-color: white;
+}
+
+#bruxnomore-digital-1 {
+    background-image: url(img/work/BruxNoMore/app-2.png);
+    height: 38vw;
+    background-size: cover;
+}
+
+#bruxnomore-story-1 {
+    background-image: url(img/work/BruxNoMore/story-1.png);
+}
+#bruxnomore-story-2 {
+    background-image: url(img/work/BruxNoMore/story-2.png);
+}
+#bruxnomore-story-3 {
+    background-image: url(img/work/BruxNoMore/story-3.png);
+}
+#bruxnomore-story-4 {
+    background-image: url(img/work/BruxNoMore/story-4.png);
+}
+#bruxnomore-story-5 {
+    background-image: url(img/work/BruxNoMore/story-5.png);
+}
+#bruxnomore-story-6 {
+    background-image: url(img/work/BruxNoMore/story-6.png);
+}
+#bruxnomore-story-7 {
+    background-image: url(img/work/BruxNoMore/story-8.png);
+}
+#bruxnomore-story-8 {
+    background-image: url(img/work/BruxNoMore/story-9.png);
+}
+#bruxnomore-story-9 {
+    background-image: url(img/work/BruxNoMore/story-10.png);
+}
+#bruxnomore-story-10 {
+    background-image: url(img/work/BruxNoMore/story-11.png);
+}
+#bruxnomore-story-11 {
+    background-image: url(img/work/BruxNoMore/story-12.png);
+}
+#bruxnomore-story-12 {
+    background-image: url(img/work/BruxNoMore/story-13.png);
+}
+
+#th-bg-1 {
+    background-image: url(img/work/THFoodLab/bg_1.jpg);
+    background-size: cover;
+}
+#th-bg-2 {
+    background-image: url(img/work/THFoodLab/bg_3.jpg);
+    background-size: cover;
+}
+#th-bg-3 {
+    background-image: url(img/work/THFoodLab/bg_2.png);
+    height: 36vw;
+    background-size: cover;
+}
+
+#th-con-1 {
+    background-image: url(img/work/THFoodLab/concept_1.jpg);
+    background-color: white;
+}
+#th-con-2 {
+    background-image: url(img/work/THFoodLab/concept_2.png);
+    background-color: white;
+}
+#th-con-3 {
+    background-image: url(img/work/THFoodLab/concept_3.jpg);
+    background-color: white;
+}
+#th-con-4 {
+    background-image: url(img/work/THFoodLab/concept_4.jpg);
+    background-color: white;
+}
+#th-con-5 {
+    background-image: url(img/work/THFoodLab/concept_5.png);
+    height: 18vw;
+    background-color: white;
+}
+#th-con-6 {
+    background-image: url(img/work/THFoodLab/concept_7.png);
+    height: 8vw;
+    background-color: white;
+}
+#th-con-7 {
+    background-image: url(img/work/THFoodLab/concept_6.png);
+    height: 48vw;
+    background-color: white;
+}
+#th-con-8 {
+    background-image: url(img/work/THFoodLab/space1.png);
+    height: 14vw;
+}
+#th-con-9 {
+    background-image: url(img/work/THFoodLab/space2.png);
+    height: 14vw;
+}
+#th-con-10 {
+    background-image: url(img/work/THFoodLab/space3.png);
+    height: 14vw;
+}
+#th-con-11 {
+    background-image: url(img/work/THFoodLab/space4.png);
+    height: 20vw;
+    background-color: white;
+}
+
+
+#highlight-text {
+    font-weight: 800;
+    color: #634AE8;
+    background-color: #42FF9B;
+}
+
+#th-con-12 {
+    background-image: url(img/work/THFoodLab/app1.jpg);
+    height: 66vw;
+}
+#th-con-13 {
+    background-image: url(img/work/THFoodLab/HIFI.png);
+    height: 26vw;
+}
+
+#th-app-1 {
+    background-image: url(img/work/THFoodLab/hifi1.png);
+    width: 4%;
+    height: 2vw;
+}
+#th-hifi-1 {
+    background-image: url(img/work/THFoodLab/hifi9.gif);
+    width: 28%;
+    height: 24vw;
+    background-color: white;
+}
+#th-hifi-2 {
+    background-image: url(img/work/THFoodLab/hifi5.png);
+    width: 68%;
+    height: 24vw;
+    background-color: white;
+}
+#th-hifi-3 {
+    background-image: url(img/work/THFoodLab/hifi10.gif);
+    width: 28%;
+    height: 24vw;
+    background-color: white;
+}
+#th-app-2 {
+    background-image: url(img/work/THFoodLab/hifi3.png);
+    width: 4%;
+    height: 2vw;
+}
+#th-app-3 {
+    background-image: url(img/work/THFoodLab/hifi4.png);
+    width: 4%;
+    height: 2vw;
+}
+
+.small-title {
+    font-weight: 600;
+    margin: 0;
+}
+
+#th-hifi-4 {
+    background-image: url(img/work/THFoodLab/hifi6.png);
+    width: 68%;
+    height: 24vw;
+    background-color: white;
+}
+
+.bg-light {
+    background-color: #FCFCFC;
+    padding: 5%;
+}
+
+#th-hifi-5 {
+    background-image: url(img/work/THFoodLab/hifi11.gif);
+    width: 28%;
+    height: 24vw;
+    background-color: white;
+}
+#th-hifi-6 {
+    background-image: url(img/work/THFoodLab/hifi7.png);
+    width: 68%;
+    height: 24vw;
+    background-color: white;
+}
+
+#th-poster-1 {
+    background-image: url(img/work/THFoodLab/promo_1.jpg);
+    background-size: cover;
+}
+#th-poster-2 {
+    background-image: url(img/work/THFoodLab/promo_2.jpg);
+    background-size: cover;
+}
+#th-poster-3 {
+    background-image: url(img/work/THFoodLab/promo_3.jpg);
+    background-size: cover;
+}
+
+#th-ws-1 {
+    background-image: url(img/work/THFoodLab/wf_3.png);
+    height: 8vw;
+    background-color: white;
+}
+#th-ws-2 {
+    background-image: url(img/work/THFoodLab/wf_1.png);
+}
+#th-ws-3 {
+    background-image: url(img/work/THFoodLab/wf_2.png);
+    background-size: cover;
+}
+#th-ws-4 {
+    background-image: url(img/work/THFoodLab/wf_5.png);
+    height: 24vw;
+    background-color: white;
+}
+#th-ws-5 {
+    background-image: url(img/work/THFoodLab/wf_4.png);
+    height: 24vw;
+    background-color: white;
+}
+
+
+#th-rnd-2 {
+    background-image: url(img/work/THFoodLab/rnd_3.png);
+    height: 30vw;
+    background-size: cover;
+}
+#th-rnd-3 {
+    background-image: url(img/work/THFoodLab/rnd_4.png);
+    background-size: cover;
+    height: 30vw;
+}
+
+#th-rnd-1 {
+    background-image: url(img/work/THFoodLab/rnd_0.png);
+    background-size: cover;
+    height: 8vw;
+}
+
+.row-img-3-img {
+    height: 12vw;
+    background-size: cover;
+}
+
+.row-img-3-text {
+    width: 30%;
+    margin: 1%;
+}
+
+#bruxnomore-condition-1 {
+    background-image: url(img/work/BruxNoMore/bg-3.png);
+}
+
+#work-page-1 {
+    background-image: url(img/work/saeco/cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+

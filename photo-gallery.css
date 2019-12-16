@@ -1,0 +1,43 @@
+
+
+
+
+
+#sketches-1 {
+    background-image: url(img/work/sketch/sketches1.png);
+}
+#sketches-2 {
+    background-image: url(img/work/sketch/sketches2.png);
+}
+#sketches-3 {
+    background-image: url(img/work/sketch/sketches3.png);
+}
+#sketches-4 {
+    background-image: url(img/work/sketch/sketches4.png);
+}
+#sketches-5 {
+    background-image: url(img/work/sketch/sketches5.png);
+}
+#sketches-7 {
+    background-image: url(img/work/sketch/sketches7.png);
+}
+#sketches-8 {
+    background-image: url(img/work/sketch/sketches8.png);
+}
+#sketches-6 {
+    background-image: url(img/work/sketch/sketches6.png);
+}
+
+.row-img-2-gallery {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    width: 48%;
+    margin: 1%;
+    padding: 0;
+    height: 16vw;
+    background-color: #FAFAFA;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
