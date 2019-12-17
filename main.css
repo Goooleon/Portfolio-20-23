@@ -20,20 +20,86 @@ p {
     height: 100vh;
     background-color: #FCFCFC;
     border-right: 1px solid #F6F6F6;
+    z-index: 1;
 }
 
 .content-right {
+    display:block;
     position: relative;
     width: 72%;
-    float: right;
     padding: 5% 5% 1.7% 5%;
+    left: 18%;
 }
 
 #about-right {
     padding-top: 0; 
 }
 
+/*back-to-top*/
+.show {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2;
+}
 
+
+/*Menu*/
+#nav-icon4 {
+  width:24px;
+  height: 21px;
+  position: absolute;
+  right: 6%;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+}
+
+#nav-icon4 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: black;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+
+
+/* Icon 4 */
+
+#nav-icon4 span:nth-child(1) {
+  top: 0px;
+  transform-origin: right center;
+}
+
+#nav-icon4 span:nth-child(2) {
+  top: 9px;
+  transform-origin: right center;
+}
+
+#nav-icon4 span:nth-child(3) {
+  top: 18px;
+  transform-origin: right center;
+}
+
+#nav-icon4.open span:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 0px;
+}
+
+#nav-icon4.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-icon4.open span:nth-child(3) {
+  transform: rotate(45deg);
+  top: 17px;
+}
 
 /*Thi is Nav*/
 .nav {
@@ -409,6 +475,9 @@ footer ul li a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+#layout {
+    justify-content: space-between;
 }
 
 .cover-img {
@@ -1878,6 +1947,29 @@ footer ul li a {
         width: 45%;
         height: 18vw;
     }
-}
-
-
+    
+    
+    .content-left {
+        width: 100%;
+        height: 10vh;
+        position: relative;
+    }
+    
+    
+    .content-list ul {
+        font-size: 0.6em;
+        padding: 0;
+        margin: 4% 0;
+    }
+    
+    .nav {
+        padding: 4% 6%;
+    }
+    
+    .content-right {
+        width: 90%;
+        left: 0;
+    }
+    .content-list, footer, #about{
+        display: none;
+    }
