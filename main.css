@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: white;
@@ -24,7 +24,7 @@ p {
 }
 
 .content-right {
-    display:block;
+    display: block;
     position: relative;
     width: 72%;
     padding: 5% 5% 1.7% 5%;
@@ -32,7 +32,7 @@ p {
 }
 
 #about-right {
-    padding-top: 0; 
+    padding-top: 0;
 }
 
 /*back-to-top*/
@@ -43,63 +43,6 @@ p {
     z-index: 2;
 }
 
-
-/*Menu*/
-#nav-icon4 {
-  width:24px;
-  height: 21px;
-  position: absolute;
-  right: 6%;
-  transform: rotate(0deg);
-  transition: .5s ease-in-out;
-}
-
-#nav-icon4 span {
-  display: block;
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  background: black;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: .25s ease-in-out;
-}
-
-
-
-/* Icon 4 */
-
-#nav-icon4 span:nth-child(1) {
-  top: 0px;
-  transform-origin: right center;
-}
-
-#nav-icon4 span:nth-child(2) {
-  top: 9px;
-  transform-origin: right center;
-}
-
-#nav-icon4 span:nth-child(3) {
-  top: 18px;
-  transform-origin: right center;
-}
-
-#nav-icon4.open span:nth-child(1) {
-  transform: rotate(-45deg);
-  top: 0px;
-}
-
-#nav-icon4.open span:nth-child(2) {
-  width: 0%;
-  opacity: 0;
-}
-
-#nav-icon4.open span:nth-child(3) {
-  transform: rotate(45deg);
-  top: 17px;
-}
 
 /*Thi is Nav*/
 .nav {
@@ -137,7 +80,8 @@ p {
     margin-right: 2em;
 }
 
-#about, #work {
+#about,
+#work {
     font-weight: 300;
     font-size: 1.5em;
     color: black;
@@ -165,13 +109,13 @@ p {
     font-size: 2em;
 }
 
-.content-list ul li a{
+.content-list ul li a {
     text-decoration: none;
     color: #8C8C8C;
 }
 
 
-.category{
+.category {
     font-size: 0.65em;
     text-decoration: underline;
 }
@@ -245,7 +189,16 @@ p {
 }
 
 
-#work-1, #work-2, #work-3, #work-4, #work-5, #work-6, #work-7, #work-8, #work-9, #work-10 {
+#work-1,
+#work-2,
+#work-3,
+#work-4,
+#work-5,
+#work-6,
+#work-7,
+#work-8,
+#work-9,
+#work-10 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -254,7 +207,7 @@ p {
 .current {
     margin-top: 0;
     font-size: 3em;
-/*   position: -webkit-sticky;
+    /*   position: -webkit-sticky;
     position: sticky;
     top: 0vh;
 */
@@ -269,7 +222,7 @@ p {
     width: 100%;
     margin-top: 2%;
     padding: 0 0 5% 0;
-    border-bottom: 2px solid #F3F3F3; 
+    border-bottom: 2px solid #F3F3F3;
 }
 
 .intro-cap {
@@ -294,30 +247,39 @@ p {
     background-image: url(img/cover-img/img01.png);
     background-position: top;
 }
+
 #work-2 {
     background-image: url(img/cover-img/img02.jpg);
 }
+
 #work-3 {
     background-image: url(img/cover-img/img03.jpg);
 }
+
 #work-4 {
     background-image: url(img/cover-img/img04.jpeg);
 }
+
 #work-5 {
     background-image: url(img/cover-img/img05.png);
 }
+
 #work-6 {
     background-image: url(img/cover-img/img06.jpg);
 }
+
 #work-7 {
     background-image: url(img/cover-img/img07.jpg);
 }
+
 #work-8 {
     background-image: url(img/cover-img/img08.jpg);
 }
+
 #work-9 {
     background-image: url(img/cover-img/img09.jpg);
 }
+
 #work-10 {
     background-image: url(img/cover-img/img10.jpg);
     background-position: top;
@@ -331,7 +293,7 @@ p {
     width: 45%;
 }
 
-.card-num h1{
+.card-num h1 {
     color: #D6D6D6;
     margin: 0;
     font-weight: 300;
@@ -383,7 +345,7 @@ footer ul li a {
 
 
 #face {
-    margin: 10% 0 2% 0; 
+    margin: 10% 0 2% 0;
     width: 100px;
     height: 100px;
     position: relative;
@@ -441,14 +403,14 @@ footer ul li a {
     color: white;
 }
 
-.text h1{
+.text h1 {
     display: block;
     width: 16%;
     text-align: right;
     margin-right: 8%;
 }
 
-.text p{
+.text p {
     display: block;
     width: 62%;
     font-size: 1.8em;
@@ -463,7 +425,9 @@ footer ul li a {
 }
 
 
-.fa-instagram:hover, .fa-linkedin:hover, .fa-pinterest:hover {
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-pinterest:hover {
     color: #634AE8;
 }
 
@@ -476,6 +440,7 @@ footer ul li a {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 #layout {
     justify-content: space-between;
 }
@@ -484,10 +449,18 @@ footer ul li a {
     width: 100%;
     height: 60vh;
     background-color: lightgray;
-    
+
 }
 
-#work-page-2, #work-page-3, #work-page-4, #work-page-5,#work-page-6,#work-page-7, #work-page-8, #work-page-9,#work-page-10 {
+#work-page-2,
+#work-page-3,
+#work-page-4,
+#work-page-5,
+#work-page-6,
+#work-page-7,
+#work-page-8,
+#work-page-9,
+#work-page-10 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -501,24 +474,31 @@ footer ul li a {
 #work-page-4 {
     background-image: url(img/cover-img/img04.jpeg);
 }
+
 #work-page-5 {
     background-image: url(img/cover-img/img05.png);
 }
+
 #work-page-6 {
     background-image: url(img/cover-img/img06.jpg);
 }
+
 #work-page-7 {
     background-image: url(img/work/arco/img-5-banner.jpg);
 }
+
 #work-page-8 {
     background-image: url(img/cover-img/img08.jpg);
 }
+
 #work-page-9 {
     background-image: url(img/cover-img/img09.jpg);
 }
+
 #work-page-10 {
     background-image: url(img/work/theStool/img-8-banner.jpg);
 }
+
 #work-page-5 {
     background-image: url(img/cover-img/img05.png);
 }
@@ -544,40 +524,42 @@ footer ul li a {
 }
 
 .content-block h2 {
-    margin-top: 6%; 
+    margin-top: 6%;
 }
 
 
-.video-responsive{
+.video-responsive {
     width: 100%;
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
-.video-responsive-small{
+
+.video-responsive-small {
     width: 80%;
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
     left: 50%;
     transform: translateX(-50%);
 }
-.video-responsive-small iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.video-responsive-small iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .row-img-1 {
@@ -593,6 +575,7 @@ footer ul li a {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .row-img-1-min {
     display: inline-flex;
     position: relative;
@@ -618,6 +601,7 @@ footer ul li a {
     background-repeat: no-repeat;
     border-radius: 6px;
 }
+
 .row-img-2-text {
     width: 45%;
     background-color: #FAFAFA;
@@ -660,7 +644,8 @@ footer ul li a {
     background-position: center;
     background-repeat: no-repeat;
 }
-.row-img-3-container{
+
+.row-img-3-container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -674,6 +659,7 @@ footer ul li a {
     margin: 0.83%;
     padding: 0;
 }
+
 .row-img-6-img {
     display: block;
     padding: 0;
@@ -741,7 +727,7 @@ footer ul li a {
 }
 
 .active {
-  background-color: #F3F3F3;
+    background-color: #F3F3F3;
 }
 
 #active-content {
@@ -749,24 +735,24 @@ footer ul li a {
 }
 
 .collapsible:after {
-  content: '\002B';
-  color: black;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-    
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+
 }
 
 .active:after {
-  content: "\2212";
+    content: "\2212";
 }
 
 .content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  margin-bottom: 2%;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 2%;
 }
 
 
@@ -774,6 +760,7 @@ footer ul li a {
     height: 45vw;
     background-image: url(img/cover-img/img10.jpg);
 }
+
 #st-2 {
     height: 45vw;
     background-image: url(img/work/theStool/st_1.png);
@@ -790,12 +777,15 @@ footer ul li a {
     background-size: cover;
     background-position: top;
 }
+
 #ins-2 {
     background-image: url(img/work/miao/bg-2.JPG);
 }
+
 #ins-3 {
     background-image: url(img/work/miao/bg-3.jpg);
 }
+
 #ins-4 {
     background-image: url(img/work/miao/bg-4.jpg);
 }
@@ -805,11 +795,13 @@ footer ul li a {
     background-size: contain;
     height: 15vw;
 }
+
 #tan-2 {
     background-image: url(img/work/miao/pattern.png);
     background-size: contain;
     height: 15vw;
 }
+
 #tan-3 {
     background-image: url(img/work/miao/color.png);
     background-size: contain;
@@ -820,30 +812,37 @@ footer ul li a {
     background-image: url(img/work/miao/showcase-1.png);
     height: 32vw;
 }
+
 #show-2 {
     background-image: url(img/work/miao/showcase-2.png);
     height: 32vw;
 }
+
 #show-3 {
     background-image: url(img/work/miao/showcase-3.png);
     height: 32vw;
 }
+
 #show-4 {
     background-image: url(img/work/miao/showcase-4.png);
     height: 32vw;
 }
+
 #show-5 {
     background-image: url(img/work/miao/showcase-5.png);
     height: 32vw;
 }
+
 #show-6 {
     background-image: url(img/work/miao/showcase-6.png);
     height: 32vw;
 }
+
 #show-7 {
     background-image: url(img/work/miao/showcase-7.png);
     height: 32vw;
 }
+
 #show-8 {
     background-color: white;
     height: 32vw;
@@ -859,27 +858,34 @@ footer ul li a {
     background-size: cover;
     height: 16vw;
 }
+
 #sketch-2 {
     background-image: url(img/work/miao/sketch-1.jpg);
 }
+
 #sketch-3 {
     background-image: url(img/work/miao/sketch-2.jpg);
 }
+
 #sketch-4 {
     background-image: url(img/work/miao/sketch-3.jpg);
 }
+
 #sketch-5 {
     background-image: url(img/work/miao/sketch-4.jpg);
     background-size: cover;
 }
+
 #sketch-6 {
     background-image: url(img/work/miao/sketch-5.jpg);
     background-size: cover;
 }
+
 #sketch-7 {
     background-image: url(img/work/miao/sketch-6.jpg);
     background-size: cover;
 }
+
 #sketch-8 {
     background-image: url(img/work/miao/sketch-7.jpg);
     background-size: cover;
@@ -890,27 +896,34 @@ footer ul li a {
     height: 16vw;
     background-size: cover;
 }
+
 #craft-2 {
     background-image: url(img/work/miao/making-2.jpg);
 }
+
 #craft-3 {
     background-image: url(img/work/miao/making-3.jpg);
 }
+
 #craft-4 {
     background-image: url(img/work/miao/making-6.jpg);
 }
+
 #craft-5 {
     background-image: url(img/work/miao/making-4.jpg);
     background-size: cover;
 }
+
 #craft-6 {
     background-image: url(img/work/miao/making-7.gif);
     background-size: cover;
 }
+
 #craft-7 {
     background-image: url(img/work/miao/making-5.jpg);
     background-size: cover;
 }
+
 #craft-8 {
     background-image: url(img/work/miao/making-9.jpg);
     background-size: cover;
@@ -925,16 +938,19 @@ footer ul li a {
     height: 36vw;
     background-size: cover;
 }
+
 #arco-show-2 {
     background-image: url(img/work/arco/mockup-1.jpg);
     height: 36vw;
     background-size: cover;
 }
+
 #arco-show-3 {
     background-image: url(img/work/arco/mockup-2.jpg);
     background-size: cover;
     background-position: top;
 }
+
 #arco-show-4 {
     background-image: url(img/cover-img/img07.jpg);
     height: 36vw;
@@ -944,18 +960,23 @@ footer ul li a {
 #bg-1 {
     background-image: url(img/work/arco/bg1.jpg);
 }
+
 #bg-2 {
     background-image: url(img/work/arco/bg2.jpg);
 }
+
 #bg-3 {
     background-image: url(img/work/arco/bg3.jpg);
 }
+
 #bg-4 {
     background-image: url(img/work/arco/bg4.jpg);
 }
+
 #bg-5 {
     background-image: url(img/work/arco/bg5.jpg);
 }
+
 #bg-6 {
     background-color: white;
 }
@@ -963,9 +984,11 @@ footer ul li a {
 #bending-1 {
     background-image: url(img/work/arco/steam.png);
 }
+
 #bending-2 {
     background-image: url(img/work/arco/kerf.png);
 }
+
 #bending-3 {
     background-image: url(img/work/arco/lamination.png);
 }
@@ -973,27 +996,35 @@ footer ul li a {
 #arco-bending-1 {
     background-image: url(img/work/arco/steam1.jpg);
 }
+
 #arco-bending-2 {
     background-image: url(img/work/arco/steam2.jpg);
 }
+
 #arco-bending-3 {
     background-image: url(img/work/arco/steam3.jpg);
 }
+
 #arco-bending-4 {
     background-image: url(img/work/arco/kerf-cutting1.jpg);
 }
+
 #arco-bending-5 {
     background-image: url(img/work/arco/kerf-cutting2.jpg);
 }
+
 #arco-bending-6 {
     background-image: url(img/work/arco/kerf-cutting3.jpg);
 }
+
 #arco-bending-7 {
     background-image: url(img/work/arco/lamination1.jpg);
 }
+
 #arco-bending-8 {
     background-image: url(img/work/arco/lamination2.jpg);
 }
+
 #arco-bending-9 {
     background-image: url(img/work/arco/lamination3.jpg);
 }
@@ -1002,8 +1033,9 @@ footer ul li a {
     background-image: url(img/work/arco/sketch_Arco.jpg);
     height: 38vw;
     background-size: cover;
-    
+
 }
+
 #arco-ideation-2 {
     background-image: url(img/work/arco/Rendering_Arco.jpg);
     height: 38vw;
@@ -1013,16 +1045,20 @@ footer ul li a {
 #arco-ideation-3 {
     background-image: url(img/work/arco/prototype_1.jpg);
 }
+
 #arco-ideation-4 {
     background-image: url(img/work/arco/prototype_2.jpg);
 }
+
 #arco-ideation-5 {
     background-image: url(img/work/arco/prototype_3.jpg);
 }
+
 #arco-ideation-6 {
     background-image: url(img/work/arco/Prototype_4.gif);
     background-size: cover;
 }
+
 #arco-ideation-7 {
     background-image: url(img/work/arco/prototype_5.jpg);
     background-size: cover;
@@ -1032,34 +1068,42 @@ footer ul li a {
     background-image: url(img/work/ProjectX/04.jpg);
     height: 24vw;
 }
+
 #projectx-2 {
     background-image: url(img/work/ProjectX/05.jpg);
     height: 24vw;
 }
+
 #projectx-3 {
     background-image: url(img/work/ProjectX/06.jpg);
     height: 24vw;
 }
+
 #projectx-4 {
     background-image: url(img/work/ProjectX/07.jpg);
     height: 24vw;
 }
+
 #projectx-5 {
     background-image: url(img/work/ProjectX/08.jpg);
     height: 24vw;
 }
+
 #projectx-6 {
     background-image: url(img/work/ProjectX/09.jpg);
     height: 24vw;
 }
+
 #projectx-7 {
     background-image: url(img/work/ProjectX/01.gif);
     height: 24vw;
 }
+
 #projectx-8 {
     background-image: url(img/work/ProjectX/02.gif);
     height: 24vw;
 }
+
 #projectx-9 {
     background-image: url(img/work/ProjectX/03.gif);
     height: 24vw;
@@ -1073,8 +1117,9 @@ footer ul li a {
     transform: translateX(-50%);
     font-style: italic;
     font-weight: 300;
-    
+
 }
+
 .quote-box {
     padding: 2% 0;
     border-radius: 6px;
@@ -1086,24 +1131,29 @@ footer ul li a {
     height: 6vw;
     background-size: cover;
 }
+
 #ppt-2 {
     background-image: url(img/work/PowerPoint_Animation/ppt-bg2.png);
     height: 6vw;
     background-size: cover;
 }
+
 #ppt-3 {
     background-image: url(img/work/PowerPoint_Animation/ppt-bg3.png);
     height: 6vw;
     background-size: cover;
 }
+
 #ppt-4 {
     background-image: url(img/work/PowerPoint_Animation/persona_1.png);
     background-size: cover;
 }
+
 #ppt-5 {
     background-image: url(img/work/PowerPoint_Animation/persona_2.jpg);
     background-size: cover;
 }
+
 #ppt-6 {
     background-image: url(img/work/PowerPoint_Animation/persona_3.png);
     background-size: cover;
@@ -1127,6 +1177,7 @@ footer ul li a {
     padding: 0;
     margin-bottom: 3%;
 }
+
 .row-img-text h3 {
     margin: 0;
 }
@@ -1134,6 +1185,7 @@ footer ul li a {
 .bold-text {
     font-weight: 800;
 }
+
 .ppt-persona {
     color: #634AE8;
     font-weight: 800;
@@ -1142,19 +1194,24 @@ footer ul li a {
 #rs-story-1 {
     background-image: url(img/work/RiceStory/Story1.jpg);
 }
+
 #rs-story-2 {
     background-image: url(img/work/RiceStory/Story2.jpg);
     border: 2px solid #634AE8;
 }
+
 #rs-story-3 {
     background-image: url(img/work/RiceStory/Story3.jpg);
 }
+
 #rs-story-4 {
     background-image: url(img/work/RiceStory/Story4.jpg);
 }
+
 #rs-story-5 {
     background-image: url(img/work/RiceStory/Story5.jpg);
 }
+
 #rs-story-6 {
     background-image: url(img/work/RiceStory/Story6.jpg);
 }
@@ -1164,18 +1221,22 @@ footer ul li a {
     height: 12vw;
     background-color: white;
 }
+
 #rs-story-design-2 {
     background-image: url(img/work/RiceStory/rnd_6.png);
     background-size: cover;
 }
+
 #rs-story-design-3 {
     background-image: url(img/work/RiceStory/pos1.jpg);
     height: 26vw;
 }
+
 #rs-story-design-4 {
     background-image: url(img/work/RiceStory/pos2.jpg);
     height: 26vw;
 }
+
 #rs-story-design-5 {
     background-image: url(img/work/RiceStory/pos3.jpg);
     height: 26vw;
@@ -1184,18 +1245,23 @@ footer ul li a {
 #rs-story-use-1 {
     background-image: url(img/work/RiceStory/new_1.jpg);
 }
+
 #rs-story-use-2 {
     background-image: url(img/work/RiceStory/new_2.jpg);
 }
+
 #rs-story-use-3 {
     background-image: url(img/work/RiceStory/new_3.jpg);
 }
+
 #rs-story-use-4 {
     background-image: url(img/work/RiceStory/new_4.jpg);
 }
+
 #rs-story-use-5 {
     background-image: url(img/work/RiceStory/new_5.jpg);
 }
+
 #rs-story-use-6 {
     background-image: url(img/work/RiceStory/new_6.jpg);
 }
@@ -1216,9 +1282,11 @@ footer ul li a {
     background-image: url(img/work/RiceStory/sm_1.png);
     background-color: white;
 }
+
 #rs-story-ideation-3 {
     background-image: url(img/work/RiceStory/sm_2.png);
 }
+
 #rs-story-ideation-4 {
     background-image: url(img/work/RiceStory/sm_3.jpg);
     background-size: cover;
@@ -1227,27 +1295,34 @@ footer ul li a {
 #rs-moodboard-1 {
     background-image: url(img/work/RiceStory/moodboard1.png);
 }
+
 #rs-moodboard-2 {
     background-image: url(img/work/RiceStory/moodboard2.png);
 }
+
 #rs-moodboard-3 {
     background-image: url(img/work/RiceStory/moodboard3.png);
 }
+
 #rs-moodboard-4 {
     background-image: url(img/work/RiceStory/moodboard4.png);
 }
+
 #rs-moodboard-5 {
     background-image: url(img/work/RiceStory/moodboard5.png);
 }
+
 #rs-brand-1 {
     background-image: url(img/work/RiceStory/b_1.png);
     background-color: white;
 }
-#rs-brand-2  {
+
+#rs-brand-2 {
     background-image: url(img/work/RiceStory/b_2.png);
     background-color: white;
 }
-#rs-brand-3  {
+
+#rs-brand-3 {
     background-image: url(img/work/RiceStory/rnd_6.png);
     background-size: cover;
 }
@@ -1256,6 +1331,7 @@ footer ul li a {
     background-image: url(img/work/BruxNoMore/bg-2.jpg);
     background-size: cover;
 }
+
 #bruxnomore-bg-2 {
     background-image: url(img/work/BruxNoMore/bg-1.png);
 }
@@ -1264,13 +1340,16 @@ footer ul li a {
 #bruxnomore-bg-4 {
     background-image: url(img/work/BruxNoMore/bg-4.png);
 }
+
 #bruxnomore-bg-5 {
     background-image: url(img/work/BruxNoMore/bg-5.png);
 }
+
 #bruxnomore-bg-6 {
     background-image: url(img/work/BruxNoMore/bg-6.png);
     background-color: white;
 }
+
 #bruxnomore-bg-7 {
     background-image: url(img/work/BruxNoMore/bg-7.png);
     background-color: white;
@@ -1293,24 +1372,29 @@ footer ul li a {
     width: 30%;
     margin: 1%;
 }
+
 .bruxnomore-c-2 {
     width: 48%;
     margin: 1%;
 }
+
 .bruxnomore-c-3 {
     width: 31%;
     margin: 1%;
 }
+
 .bruxnomore-c-3 p {
     border-radius: 6px;
     background-color: #FCFCFC;
     padding: 5%;
 }
+
 .bruxnomore-c-1 h3 {
     border-radius: 6px;
     padding: 5%;
     background-color: #42FF9B;
 }
+
 .bruxnomore-c-2 h3 {
     border-radius: 6px;
     padding: 5%;
@@ -1322,11 +1406,13 @@ footer ul li a {
     height: 12vw;
     background-color: white;
 }
+
 #bruxnomore-r-2 {
     background-image: url(img/work/BruxNoMore/rnd-6.png);
     height: 24vw;
     background-color: white;
 }
+
 #bruxnomore-r-3 {
     background-image: url(img/work/BruxNoMore/rnd-7.png);
     height: 24vw;
@@ -1337,10 +1423,12 @@ footer ul li a {
     background-image: url(img/work/BruxNoMore/rnd-8.png);
     background-color: white;
 }
+
 #bruxnomore-r-5 {
     background-image: url(img/work/BruxNoMore/rnd-9.png);
     background-color: white;
 }
+
 #bruxnomore-r-6 {
     background-image: url(img/work/BruxNoMore/rnd-10.png);
     background-color: white;
@@ -1357,14 +1445,17 @@ footer ul li a {
     background-size: cover;
     background-position: top;
 }
+
 #bruxnomore-r-9 {
     background-image: url(img/work/BruxNoMore/rnd-3.jpg);
     background-size: cover;
 }
+
 #bruxnomore-r-10 {
     background-image: url(img/work/BruxNoMore/rnd-4.png);
     background-size: cover;
 }
+
 #bruxnomore-r-11 {
     background-image: url(img/work/BruxNoMore/rnd-11.jpg);
     background-size: cover;
@@ -1395,42 +1486,55 @@ footer ul li a {
 #bruxnomore-mockup-1 {
     background-image: url(img/work/BruxNoMore/mp-1.jpg);
 }
+
 #bruxnomore-mockup-2 {
     background-image: url(img/work/BruxNoMore/mp-2.jpg);
 }
+
 #bruxnomore-mockup-3 {
     background-image: url(img/work/BruxNoMore/mp-3.jpg);
 }
+
 #bruxnomore-mockup-4 {
     background-image: url(img/work/BruxNoMore/mp-4.jpg);
 }
+
 #bruxnomore-mockup-5 {
     background-image: url(img/work/BruxNoMore/mp-5.jpg);
 }
+
 #bruxnomore-mockup-6 {
     background-image: url(img/work/BruxNoMore/mp-6.jpg);
 }
+
 #bruxnomore-mockup-7 {
     background-image: url(img/work/BruxNoMore/mp-7.jpg);
 }
+
 #bruxnomore-mockup-8 {
     background-image: url(img/work/BruxNoMore/mp-8.jpg);
 }
+
 #bruxnomore-mockup-9 {
     background-image: url(img/work/BruxNoMore/mp-9.jpg);
 }
+
 #bruxnomore-mockup-10 {
     background-image: url(img/work/BruxNoMore/mp-10.jpg);
 }
+
 #bruxnomore-mockup-11 {
     background-image: url(img/work/BruxNoMore/mp-11.jpg);
 }
+
 #bruxnomore-mockup-12 {
     background-image: url(img/work/BruxNoMore/mp-13.jpg);
 }
+
 #bruxnomore-mockup-13 {
     background-image: url(img/work/BruxNoMore/mp-14.jpg);
 }
+
 #bruxnomore-mockup-14 {
     background-image: url(img/work/BruxNoMore/mp-15.jpg);
 }
@@ -1439,21 +1543,25 @@ footer ul li a {
 #bruxnomore-1 {
     background-image: url(img/work/BruxNoMore/rnd-12-1.png);
 }
+
 #bruxnomore-2 {
     background-image: url(img/work/BruxNoMore/app-3.jpg);
     height: 26vw;
     background-size: cover;
 }
+
 #bruxnomore-3 {
     background-image: url(img/work/BruxNoMore/ic-2.png);
     height: 40vw;
     background-size: cover;
 }
+
 #bruxnomore-3-1 {
     background-image: url(img/work/BruxNoMore/mp-12.png);
     height: 40vw;
     background-size: cover;
 }
+
 #bruxnomore-4 {
     background-image: url(img/work/BruxNoMore/app-1.png);
     height: 40vw;
@@ -1470,14 +1578,17 @@ footer ul li a {
     background-image: url(img/work/BruxNoMore/app-4.png);
     background-color: white;
 }
+
 #bruxnomore-6 {
     background-image: url(img/work/BruxNoMore/app-5.png);
     background-color: white;
 }
+
 #bruxnomore-7 {
     background-image: url(img/work/BruxNoMore/app-6.png);
     background-color: white;
 }
+
 #bruxnomore-8 {
     background-image: url(img/work/BruxNoMore/app-7.png);
     background-color: white;
@@ -1492,36 +1603,47 @@ footer ul li a {
 #bruxnomore-story-1 {
     background-image: url(img/work/BruxNoMore/story-1.png);
 }
+
 #bruxnomore-story-2 {
     background-image: url(img/work/BruxNoMore/story-2.png);
 }
+
 #bruxnomore-story-3 {
     background-image: url(img/work/BruxNoMore/story-3.png);
 }
+
 #bruxnomore-story-4 {
     background-image: url(img/work/BruxNoMore/story-4.png);
 }
+
 #bruxnomore-story-5 {
     background-image: url(img/work/BruxNoMore/story-5.png);
 }
+
 #bruxnomore-story-6 {
     background-image: url(img/work/BruxNoMore/story-6.png);
 }
+
 #bruxnomore-story-7 {
     background-image: url(img/work/BruxNoMore/story-8.png);
 }
+
 #bruxnomore-story-8 {
     background-image: url(img/work/BruxNoMore/story-9.png);
 }
+
 #bruxnomore-story-9 {
     background-image: url(img/work/BruxNoMore/story-10.png);
 }
+
 #bruxnomore-story-10 {
     background-image: url(img/work/BruxNoMore/story-11.png);
 }
+
 #bruxnomore-story-11 {
     background-image: url(img/work/BruxNoMore/story-12.png);
 }
+
 #bruxnomore-story-12 {
     background-image: url(img/work/BruxNoMore/story-13.png);
 }
@@ -1530,10 +1652,12 @@ footer ul li a {
     background-image: url(img/work/THFoodLab/bg_1.jpg);
     background-size: cover;
 }
+
 #th-bg-2 {
     background-image: url(img/work/THFoodLab/bg_3.jpg);
     background-size: cover;
 }
+
 #th-bg-3 {
     background-image: url(img/work/THFoodLab/bg_2.png);
     height: 36vw;
@@ -1544,45 +1668,55 @@ footer ul li a {
     background-image: url(img/work/THFoodLab/concept_1.jpg);
     background-color: white;
 }
+
 #th-con-2 {
     background-image: url(img/work/THFoodLab/concept_2.png);
     background-color: white;
 }
+
 #th-con-3 {
     background-image: url(img/work/THFoodLab/concept_3.jpg);
     background-color: white;
 }
+
 #th-con-4 {
     background-image: url(img/work/THFoodLab/concept_4.jpg);
     background-color: white;
 }
+
 #th-con-5 {
     background-image: url(img/work/THFoodLab/concept_5.png);
     height: 18vw;
     background-color: white;
 }
+
 #th-con-6 {
     background-image: url(img/work/THFoodLab/concept_7.png);
     height: 8vw;
     background-color: white;
 }
+
 #th-con-7 {
     background-image: url(img/work/THFoodLab/concept_6.png);
     height: 48vw;
     background-color: white;
 }
+
 #th-con-8 {
     background-image: url(img/work/THFoodLab/space1.png);
     height: 14vw;
 }
+
 #th-con-9 {
     background-image: url(img/work/THFoodLab/space2.png);
     height: 14vw;
 }
+
 #th-con-10 {
     background-image: url(img/work/THFoodLab/space3.png);
     height: 14vw;
 }
+
 #th-con-11 {
     background-image: url(img/work/THFoodLab/space4.png);
     height: 20vw;
@@ -1600,6 +1734,7 @@ footer ul li a {
     background-image: url(img/work/THFoodLab/app1.jpg);
     height: 66vw;
 }
+
 #th-con-13 {
     background-image: url(img/work/THFoodLab/HIFI.png);
     height: 26vw;
@@ -1610,29 +1745,34 @@ footer ul li a {
     width: 4%;
     height: 2vw;
 }
+
 #th-hifi-1 {
     background-image: url(img/work/THFoodLab/hifi9.gif);
     width: 28%;
     height: 24vw;
     background-color: white;
 }
+
 #th-hifi-2 {
     background-image: url(img/work/THFoodLab/hifi5.png);
     width: 68%;
     height: 24vw;
     background-color: white;
 }
+
 #th-hifi-3 {
     background-image: url(img/work/THFoodLab/hifi10.gif);
     width: 28%;
     height: 24vw;
     background-color: white;
 }
+
 #th-app-2 {
     background-image: url(img/work/THFoodLab/hifi3.png);
     width: 4%;
     height: 2vw;
 }
+
 #th-app-3 {
     background-image: url(img/work/THFoodLab/hifi4.png);
     width: 4%;
@@ -1662,6 +1802,7 @@ footer ul li a {
     height: 24vw;
     background-color: white;
 }
+
 #th-hifi-6 {
     background-image: url(img/work/THFoodLab/hifi7.png);
     width: 68%;
@@ -1673,10 +1814,12 @@ footer ul li a {
     background-image: url(img/work/THFoodLab/promo_1.jpg);
     background-size: cover;
 }
+
 #th-poster-2 {
     background-image: url(img/work/THFoodLab/promo_2.jpg);
     background-size: cover;
 }
+
 #th-poster-3 {
     background-image: url(img/work/THFoodLab/promo_3.jpg);
     background-size: cover;
@@ -1687,18 +1830,22 @@ footer ul li a {
     height: 8vw;
     background-color: white;
 }
+
 #th-ws-2 {
     background-image: url(img/work/THFoodLab/wf_1.png);
 }
+
 #th-ws-3 {
     background-image: url(img/work/THFoodLab/wf_2.png);
     background-size: cover;
 }
+
 #th-ws-4 {
     background-image: url(img/work/THFoodLab/wf_5.png);
     height: 24vw;
     background-color: white;
 }
+
 #th-ws-5 {
     background-image: url(img/work/THFoodLab/wf_4.png);
     height: 24vw;
@@ -1711,6 +1858,7 @@ footer ul li a {
     height: 30vw;
     background-size: cover;
 }
+
 #th-rnd-3 {
     background-image: url(img/work/THFoodLab/rnd_4.png);
     background-size: cover;
@@ -1749,30 +1897,38 @@ footer ul li a {
     #title {
         margin-right: 1em;
     }
-    #about, #work {
+
+    #about,
+    #work {
         font-size: 1.2em;
     }
+
     .content-list ul li {
         font-size: 1.3em;
     }
+
     .img-link {
         height: 32vw;
     }
+
     .card-img {
         height: 32vw;
     }
+
     #old-work {
         font-size: 2.6em;
     }
+
     .row-img-6-text {
         width: 22%;
     }
+
     .row-img-6-img {
         height: 10vw;
     }
-    
+
     p {
-    line-height: 1.3em;
+        line-height: 1.3em;
     }
 }
 
@@ -1780,6 +1936,7 @@ footer ul li a {
 .annotation-btm {
     margin-top: 4%;
 }
+
 .annotation-central {
     text-align: center;
 }
@@ -1790,186 +1947,338 @@ footer ul li a {
         width: 100%;
         height: 42vw;
     }
+
     .card-img {
-    width: 100%;
-    height: 42vw;
-}
+        width: 100%;
+        height: 42vw;
+    }
+
     .card-cap {
-    display: none;
-}
+        display: none;
+    }
+
     #old-work {
         font-size: 2em;
     }
+
     .project-card {
         margin-bottom: 16px;
     }
-    .text p{
-    font-size: 1em;
-    width: 100%;
-    margin-bottom: 10%;
+
+    .text p {
+        font-size: 1em;
+        width: 100%;
+        margin-bottom: 10%;
     }
-    .text h1{
+
+    .text h1 {
         width: 100%;
         font-size: 1.4em;
         text-align: left;
     }
+
     #contact {
         left: 0;
     }
+
     #email {
         font-size: 1.2em;
     }
+
     #portait {
         height: 68vw;
         background-size: cover;
     }
+
     .current {
         font-size: 2em;
     }
+
     .intro-content {
         width: 100%;
     }
+
     .cover-img {
         height: 46vw;
     }
+
     .row-img-6-text {
         width: 45%;
     }
+
     .row-img-6-img {
         height: 20vw;
     }
+
     .collapsible {
         font-size: 1em;
     }
+
     .row-img-3 {
         width: 100%;
         height: 36vw;
     }
+
     .row-img-2-text {
         width: 100%;
     }
+
     .row-img {
         width: 100%;
         height: 36vw;
     }
+
     .bruxnomore-c-1 {
         width: 100%;
         margin: 0;
     }
+
     .bruxnomore-c-1 h3 {
         font-size: 1em;
         margin: 4% 0;
     }
+
     .row-img-text {
         margin-bottom: 16%;
     }
+
     .hightlight-info {
         width: 100%;
         font-size: 1.2em;
     }
+
     .bruxnomore-c-2 {
         width: 100%;
     }
+
     .bruxnomore-c-2 h3 {
         margin: 4% 0;
     }
+
     .row-img-3-text {
         width: 100%;
     }
-    #rs-img-3-story{
+
+    #rs-img-3-story {
         width: 46%;
     }
-    #rs-story-1,#rs-story-2,#rs-story-3,#rs-story-4,#rs-story-5,#rs-story-6 {
+
+    #rs-story-1,
+    #rs-story-2,
+    #rs-story-3,
+    #rs-story-4,
+    #rs-story-5,
+    #rs-story-6 {
         height: 20vw;
     }
+
     .row-img-3-img {
         height: 24vw;
     }
+
     .bruxnomore-c-3 {
         width: 100%;
     }
-    #rs-story-design-3, #rs-story-design-4, #rs-story-design-5 {
+
+    #rs-story-design-3,
+    #rs-story-design-4,
+    #rs-story-design-5 {
         height: 42vw;
     }
-    #rs-moodboard-1, #rs-moodboard-2, #rs-moodboard-3, #rs-moodboard-4,#rs-moodboard-5 {
+
+    #rs-moodboard-1,
+    #rs-moodboard-2,
+    #rs-moodboard-3,
+    #rs-moodboard-4,
+    #rs-moodboard-5 {
         width: 48%;
         height: 12vw;
     }
-    #tan-1, #tan-2, #tan-3 {
+
+    #tan-1,
+    #tan-2,
+    #tan-3 {
         height: 48vw;
     }
-    #show-1, #show-2, #show-3, #show-4, #show-5, #show-6, #show-7{
+
+    #show-1,
+    #show-2,
+    #show-3,
+    #show-4,
+    #show-5,
+    #show-6,
+    #show-7 {
         width: 100%;
         height: 62vw;
-    } 
-    #st-1, #st-2 {
+    }
+
+    #st-1,
+    #st-2 {
         width: 100%;
     }
+
     #st-1 {
         background-size: cover;
         height: 72vw;
     }
-    #progress-1, #progress-2 {
+
+    #progress-1,
+    #progress-2 {
         width: 100%;
-        height:32vw
+        height: 32vw
     }
-    #th-con-1, #th-con-2, #th-con-3, #th-con-4 {
+
+    #th-con-1,
+    #th-con-2,
+    #th-con-3,
+    #th-con-4 {
         width: 100%;
         height: 32vw;
     }
-    #th-con-8, #th-con-9, #th-con-10 {
+
+    #th-con-8,
+    #th-con-9,
+    #th-con-10 {
         height: 32vw;
     }
-    #th-app-1, #th-app-2, #th-app-3 {
+
+    #th-app-1,
+    #th-app-2,
+    #th-app-3 {
         height: 8vw;
         width: 10%;
     }
-    #th-rnd-2, #th-rnd-3 {
+
+    #th-rnd-2,
+    #th-rnd-3 {
         width: 100%;
         height: 52vw;
     }
-    #th-ws-2, #th-ws-3 {
+
+    #th-ws-2,
+    #th-ws-3 {
         width: 100%;
         height: 30vw;
     }
-    #th-poster-1, #th-poster-2 {
+
+    #th-poster-1,
+    #th-poster-2 {
         width: 100%;
         height: 32vw;
     }
-    #projectx-1, #projectx-2, #projectx-3, #projectx-4, #projectx-5, #projectx-6, #projectx-7, #projectx-8, #projectx-9 {
+
+    #projectx-1,
+    #projectx-2,
+    #projectx-3,
+    #projectx-4,
+    #projectx-5,
+    #projectx-6,
+    #projectx-7,
+    #projectx-8,
+    #projectx-9 {
         height: 72vw;
     }
-    #sketches-1, #sketches-2, #sketches-3, #sketches-4, #sketches-5, #sketches-6, #sketches-7, #sketches-8 {
+
+    #sketches-1,
+    #sketches-2,
+    #sketches-3,
+    #sketches-4,
+    #sketches-5,
+    #sketches-6,
+    #sketches-7,
+    #sketches-8 {
         width: 100%;
         height: 36vw;
     }
-    #bg-1, #bg-2, #bg-3, #bg-4, #bg-5 {
+
+    #bg-1,
+    #bg-2,
+    #bg-3,
+    #bg-4,
+    #bg-5 {
         width: 45%;
         height: 18vw;
     }
-    
-    
+
+
     .content-left {
         width: 100%;
         height: 10vh;
         position: relative;
     }
-    
-    
+
+
     .content-list ul {
         font-size: 0.6em;
         padding: 0;
         margin: 4% 0;
     }
-    
+
     .nav {
         padding: 4% 6%;
     }
-    
+
     .content-right {
         width: 90%;
         left: 0;
     }
-    .content-list, footer, #about{
+
+    .content-list,
+    footer,
+    #about {
         display: none;
     }
+
+    /*Menu*/
+    #nav-icon4 {
+        width: 24px;
+        height: 21px;
+        position: absolute;
+        right: 6%;
+        transform: rotate(0deg);
+        transition: .5s ease-in-out;
+    }
+
+    #nav-icon4 span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: black;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+
+    #nav-icon4 span:nth-child(1) {
+        top: 0px;
+        transform-origin: right center;
+    }
+
+    #nav-icon4 span:nth-child(2) {
+        top: 9px;
+        transform-origin: right center;
+    }
+
+    #nav-icon4 span:nth-child(3) {
+        top: 18px;
+        transform-origin: right center;
+    }
+
+    #nav-icon4.open span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 0px;
+    }
+
+    #nav-icon4.open span:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+    }
+
+    #nav-icon4.open span:nth-child(3) {
+        transform: rotate(45deg);
+        top: 17px;
+    }
+}
