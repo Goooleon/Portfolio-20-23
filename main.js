@@ -12,7 +12,7 @@ $( document ).ready(function() {
     ScrollReveal().reveal('#experience', { duration: 1600, scale: 0.98 });
     ScrollReveal().reveal('#contact', {origin: 'right', distance: '300px', duration: 2000,});
     
-    var textArray = ["Gü","Shengfeng Gu","顾 盛锋"];
+    var textArray = ["Gü","Shengfeng Gu"];
     var index = 0;
     setInterval(function(){        
     $("#name").animate({
