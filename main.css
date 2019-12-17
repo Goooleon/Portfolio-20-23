@@ -197,6 +197,7 @@ p {
 .intro {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     justify-content: space-between;
     width: 100%;
@@ -402,6 +403,11 @@ footer ul li a {
 
 /*This is Work page*/
 
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .cover-img {
     width: 100%;
@@ -531,7 +537,7 @@ footer ul li a {
 
 
 .row-img {
-    width: 48%;
+    width: 45%;
     margin: 1%;
     padding: 0;
     height: 16vw;
@@ -542,7 +548,7 @@ footer ul li a {
     border-radius: 6px;
 }
 .row-img-2-text {
-    width: 48%;
+    width: 45%;
     background-color: #FAFAFA;
     margin: 1%;
     padding: 0;
@@ -1042,9 +1048,10 @@ footer ul li a {
 
 
 .row-img-text {
-    display: inline-flex;
     position: relative;
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     padding: 0;
     margin-bottom: 3%;
@@ -1208,6 +1215,7 @@ footer ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .bruxnomore-c-1 {
@@ -1744,5 +1752,130 @@ footer ul li a {
         height: 68vw;
         background-size: cover;
     }
-    
+    .current {
+        font-size: 2em;
+    }
+    .intro-content {
+        width: 100%;
+    }
+    .cover-img {
+        height: 46vw;
+    }
+    .row-img-6-text {
+        width: 45%;
+    }
+    .row-img-6-img {
+        height: 20vw;
+    }
+    .collapsible {
+        font-size: 1em;
+    }
+    .row-img-3 {
+        width: 100%;
+        height: 36vw;
+    }
+    .row-img-2-text {
+        width: 100%;
+    }
+    .row-img {
+        width: 100%;
+        height: 36vw;
+    }
+    .bruxnomore-c-1 {
+        width: 100%;
+        margin: 0;
+    }
+    .bruxnomore-c-1 h3 {
+        font-size: 1em;
+        margin: 4% 0;
+    }
+    .row-img-text {
+        margin-bottom: 16%;
+    }
+    .hightlight-info {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .bruxnomore-c-2 {
+        width: 100%;
+    }
+    .bruxnomore-c-2 h3 {
+        margin: 4% 0;
+    }
+    .row-img-3-text {
+        width: 100%;
+    }
+    #rs-img-3-story{
+        width: 46%;
+    }
+    #rs-story-1,#rs-story-2,#rs-story-3,#rs-story-4,#rs-story-5,#rs-story-6 {
+        height: 20vw;
+    }
+    .row-img-3-img {
+        height: 24vw;
+    }
+    .bruxnomore-c-3 {
+        width: 100%;
+    }
+    #rs-story-design-3, #rs-story-design-4, #rs-story-design-5 {
+        height: 42vw;
+    }
+    #rs-moodboard-1, #rs-moodboard-2, #rs-moodboard-3, #rs-moodboard-4,#rs-moodboard-5 {
+        width: 48%;
+        height: 12vw;
+    }
+    #tan-1, #tan-2, #tan-3 {
+        height: 48vw;
+    }
+    #show-1, #show-2, #show-3, #show-4, #show-5, #show-6, #show-7{
+        width: 100%;
+        height: 62vw;
+    } 
+    #st-1, #st-2 {
+        width: 100%;
+    }
+    #st-1 {
+        background-size: cover;
+        height: 72vw;
+    }
+    #progress-1, #progress-2 {
+        width: 100%;
+        height:32vw
+    }
+    #th-con-1, #th-con-2, #th-con-3, #th-con-4 {
+        width: 100%;
+        height: 32vw;
+    }
+    #th-con-8, #th-con-9, #th-con-10 {
+        height: 32vw;
+    }
+    #th-app-1, #th-app-2, #th-app-3 {
+        height: 8vw;
+        width: 10%;
+    }
+    #th-rnd-2, #th-rnd-3 {
+        width: 100%;
+        height: 52vw;
+    }
+    #th-ws-2, #th-ws-3 {
+        width: 100%;
+        height: 30vw;
+    }
+    #th-poster-1, #th-poster-2 {
+        width: 100%;
+        height: 32vw;
+    }
+    #projectx-1, #projectx-2, #projectx-3, #projectx-4, #projectx-5, #projectx-6, #projectx-7, #projectx-8, #projectx-9 {
+        height: 72vw;
+    }
+    #sketches-1, #sketches-2, #sketches-3, #sketches-4, #sketches-5, #sketches-6, #sketches-7, #sketches-8 {
+        width: 100%;
+        height: 36vw;
+    }
+    #bg-1, #bg-2, #bg-3, #bg-4, #bg-5 {
+        width: 45%;
+        height: 18vw;
+    }
 }
+
+
