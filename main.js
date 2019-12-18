@@ -45,6 +45,8 @@
 
          //menu
          var count = 0;
+         $('#collasped-one').hide();
+         
          $('#nav-icon4').click(function () {
              count++;
              $(this).toggleClass('open');
@@ -52,6 +54,7 @@
              if (count % 2 != 0) {
                  $('.content-left ').css('height', '90vh');
                  $('.content-list, footer').show();
+                 $('#collasped-one').show();
              } else {
                  $('.content-left').css('height', '10vh');
                  $('.content-list, footer').hide();
