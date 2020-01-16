@@ -273,7 +273,7 @@ p {
 }
 
 #work-6 {
-    background-image: url(img/cover-img/img06.jpg);
+    background-image: url(img/cover-img/img06.png);
 }
 
 #work-7 {
@@ -488,7 +488,7 @@ footer ul li a {
 }
 
 #work-page-6 {
-    background-image: url(img/cover-img/img06.jpg);
+    background-image: url(img/cover-img/img06.png);
 }
 
 #work-page-7 {
@@ -2212,6 +2212,9 @@ footer ul li a {
     #sketches-7,
     #sketches-8,
     #sketches-9,
+    #sketches-10,
+    #sketches-11,
+    #sketches-12,
     #th-ws-2,
     #th-hifi-1,#th-hifi-2,#th-hifi-3,#th-hifi-4,#th-hifi-5,#th-hifi-6{
         width: 100%;
