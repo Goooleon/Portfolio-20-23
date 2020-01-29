@@ -114,7 +114,7 @@ p {
 }
 
 .content-list ul li {
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .content-list ul li a {
@@ -530,6 +530,11 @@ footer ul li a {
     display: block;
     position: relative;
 }
+.img-wrapper {
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: space-around;
+}
 
 .content-block h2 {
     margin-top: 6%;
@@ -643,8 +648,8 @@ footer ul li a {
     display: inline-flex;
     position: relative;
     flex-direction: row;
-    width: 31.33%;
-    margin: 1%;
+    width: 32%;
+    margin: 1% 0 1% 0;
     padding: 0;
     height: 12vw;
     background-color: #FAFAFA;
@@ -1900,13 +1905,14 @@ footer ul li a {
 }
 
 
+
 /*Pad view*/
 @media screen and (min-width:768px) and (max-width:1024px) {
     #title {
         margin-right: 1em;
     }
 
-    #about,
+    #about, 
     #work {
         font-size: 1.2em;
     }
@@ -1954,6 +1960,10 @@ footer ul li a {
     .img-link {
         width: 100%;
         height: 52vw;
+    }
+    
+    .row-img-3 {
+        width: 100%;
     }
 
     .card-img {
@@ -2022,10 +2032,7 @@ footer ul li a {
         font-size: 1em;
     }
 
-    .row-img-3 {
-        width: 100%;
-        height: 36vw;
-    }
+
 
     .row-img-2-text {
         width: 100%;
