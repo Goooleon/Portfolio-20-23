@@ -91,3 +91,18 @@
     height: 34vw;
     background-color: white;
 }
+
+
+
+#first-concept-1 {
+    background-image: url(img/work/saeco/first-concept2.jpg);
+    background-size: cover;
+}
+#first-concept-2 {
+    background-image: url(img/work/saeco/first-concept3.jpg);
+    background-size: cover;
+}
+#first-concept-3 {
+    background-image: url(img/work/saeco/first-concept1.jpg);
+    background-size: cover;
+}
