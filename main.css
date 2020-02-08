@@ -1390,6 +1390,9 @@ footer ul li a {
     width: 48%;
     margin: 1%;
 }
+.col-2 {
+    width: 42%;
+}
 
 .bruxnomore-c-3 {
     width: 31%;
@@ -2065,6 +2068,9 @@ footer ul li a {
     .bruxnomore-c-2 {
         width: 100%;
     }
+    .col-2 {
+    width: 100%;
+}
 
     .bruxnomore-c-2 h3 {
         margin: 4% 0;
@@ -2322,3 +2328,5 @@ footer ul li a {
         top: 17px;
     }
 }
+
+

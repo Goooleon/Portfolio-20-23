@@ -60,6 +60,41 @@
     background-size: cover;
 }
 
+#pros-1{
+    background-image: url(img/work/saeco/pros1.png);
+    height: 16vw;
+    background-size: cover;
+    margin-bottom: 2vw;
+}
+#pros-2{
+    background-image: url(img/work/saeco/pros2.png);
+    height: 16vw;
+    background-size: cover;
+    margin-bottom: 2vw;
+}
+#pros-3{
+    background-image: url(img/work/saeco/pros3.png);
+    height: 16vw;
+    background-size: cover;
+}
+#cons-1 {
+    background-image: url(img/work/saeco/cons1.png);
+    height: 16vw;
+    background-color: white;
+    margin-bottom: 2vw;
+}
+#cons-2 {
+    background-image: url(img/work/saeco/cons2.png);
+    height: 16vw;
+    background-color: white;
+    margin-bottom: 2vw;
+}
+#cons-3 {
+    background-image: url(img/work/saeco/cons3.png);
+    height: 16vw;
+    background-size: cover;
+}
+
 #saeco-main-0 {
     background-image: url(img/work/saeco/main-0.png);
     background-size: cover;
@@ -90,6 +125,7 @@
     background-image: url(img/work/saeco/Saeco_Info_Architecture.png);
     height: 34vw;
     background-color: white;
+    margin-bottom: 2vw;
 }
 
 
@@ -105,4 +141,43 @@
 #first-concept-3 {
     background-image: url(img/work/saeco/first-concept1.jpg);
     background-size: cover;
+}
+#con-a-1 {
+    background-image: url(img/work/saeco/con-a-1.JPG);
+    background-size: cover;
+    background-position: top;
+}
+#con-a-2 {
+    background-image: url(img/work/saeco/con-a-2.JPG);
+    background-size: cover;
+    background-position: top;
+}
+#con-a-3 {
+    background-image: url(img/work/saeco/con-a-3.JPG);
+    background-size: cover;
+    background-position: top;
+}
+#design-modi-1 {
+    background-image: url(img/work/saeco/design_modification1.png);
+    background-color: black;
+}
+#design-modi-2 {
+    background-image: url(img/work/saeco/design_modification3.png);
+    background-color: black;
+}
+#design-modi-3 {
+    background-image: url(img/work/saeco/design_modification2.png);
+    background-color: black;
+}
+#design-modi-4 {
+    background-image: url(img/work/saeco/design_modification4.png);
+    background-size: cover;
+    margin-bottom: 4vw;
+}
+
+.pros {
+    color: green;
+}
+.cons {
+    color: crimson;
 }
