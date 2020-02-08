@@ -25,8 +25,7 @@
          });
          ScrollReveal().reveal('#contact', {
              duration: 1200,
-             scale: 0.8
-             8
+             scale: 0.88
          });
 
          var textArray = ["Gü", "Shengfeng Gu", "顾 盛锋"];
