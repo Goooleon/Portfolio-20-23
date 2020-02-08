@@ -1960,6 +1960,16 @@ footer ul li a {
 
 /*Mobile*/
 @media screen and (min-width:0px) and (max-width: 768px) {
+    #cv {
+    font-weight: 800;
+    padding: 3%;
+    border-radius: 10px;
+    }
+    
+    #footer_note {
+        margin-bottom: 5vw;
+    }
+    
     .img-link {
         width: 100%;
         height: 52vw;
@@ -2211,6 +2221,12 @@ footer ul li a {
     #projectx-9,#bruxnomore-r-2,#bruxnomore-r-3 {
         height: 72vw;
     }
+    
+    #saeco-process-1 {
+        background-size: cover;
+    }
+
+
     
     #th-con-12 {
         height: 84vw;

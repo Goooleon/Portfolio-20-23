@@ -181,3 +181,16 @@
 .cons {
     color: crimson;
 }
+
+/*Mobile*/
+@media screen and (min-width:0px) and (max-width: 768px) {
+    #saeco-leds-1 {
+        height: 50vw;
+    }
+    #saeco-ut-1 {
+        height: 61vw;
+    }
+    #pros-1, #pros-2, #pros-3, #cons-1, #cons-2, #cons-3{
+        height: 36vw;
+    }
+}
