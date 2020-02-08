@@ -24,9 +24,8 @@
              scale: 0.98
          });
          ScrollReveal().reveal('#contact', {
-             origin: 'right',
-             distance: '300px',
-             duration: 2000,
+             duration: 1200,
+             scale: 0.88
          });
 
          var textArray = ["Gü", "Shengfeng Gu", "顾 盛锋"];
