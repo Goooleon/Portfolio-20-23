@@ -197,6 +197,7 @@ p {
 }
 
 
+#work-0,
 #work-1,
 #work-2,
 #work-3,
@@ -249,6 +250,16 @@ p {
     display: block;
     position: relative;
     width: 60%;
+}
+
+#work-2 {
+    background-image: url(img/cover-img/img00.png);
+    background-position: top;
+}
+
+#work-0 {
+    background-image: url(img/cover-img/img00.png);
+    background-position: top;
 }
 
 #work-1 {
