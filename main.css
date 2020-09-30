@@ -128,6 +128,12 @@ p {
     text-decoration: underline;
 }
 
+#category_other {
+    border-top: 1px solid #EAEAEA;
+    padding-top: 8%;
+    margin-top: 16%;
+}
+
 
 /*Thi is project-cards*/
 .project-card {
@@ -319,7 +325,6 @@ p {
 }
 
 .sub-category {
-    text-decoration: underline;
     color: #8C8C8C;
 }
 
@@ -1910,6 +1915,12 @@ footer ul li a {
 
 #bruxnomore-condition-1 {
     background-image: url(img/work/BruxNoMore/bg-3.png);
+}
+
+#work-page-0 {
+    background-image: url(img/cover-img/img00.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #work-page-1 {
