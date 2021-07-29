@@ -1188,6 +1188,17 @@ footer ul li a {
     background-size: cover;
 }
 
+#ppt-7 {
+    background-image: url(img/work/PowerPoint_Animation/IA-1.png);
+    background-size: cover;
+    height: 34vw;
+}
+#ppt-8 {
+    background-image: url(img/work/PowerPoint_Animation/IA-2.png);
+    background-size: cover;
+    height: 106vw;
+}
+
 .annotation {
     font-size: 0.8em;
     font-style: italic;
